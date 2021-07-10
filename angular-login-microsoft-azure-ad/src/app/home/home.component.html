@@ -1,0 +1,17 @@
+<div *ngIf="!loginDisplay">
+    <p class="welcome">Welcome to the MSAL.js v2 Angular Quickstart!</p>
+    <p>This sample demonstrates how to configure MSAL Angular to login, logout, protect a route, and acquire an access
+        token for a protected resource such as the Microsoft Graph.</p>
+    <p>Please sign-in to see your profile information.</p>
+</div>
+
+<div *ngIf="loginDisplay">
+    <p>Login successful!</p>
+    <p>Request your profile information by clicking Profile above.</p>
+</div>
+
+
+
+<iframe width="1140" height="541.25"
+    src="https://app.powerbi.com/reportEmbed?reportId=634690ec-16c3-4c87-bf7c-5feb5a4ac6c3&autoAuth=true&ctid=1c8d208a-6dca-4db9-aaa9-b30231d98a72&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1iLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D"
+    frameborder="0" allowFullScreen="true"></iframe>
